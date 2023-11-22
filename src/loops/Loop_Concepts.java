@@ -4,10 +4,13 @@ public class Loop_Concepts
 {
 	public static void main(String[] args)
 	{
-		int num = 5;
-		while(num>5)
+		int num = 0;
+		while(num<=5)
 		{
-			System.out.println(++num);
+			
+			System.out.println(num);
+			num++;
 		}
+		
 	}
 }
