@@ -21,11 +21,9 @@ public class ArrayListRev
 			String s = itr.next();
 			if(s.contains("Python"))
 			{
-				list.remove(3);
-				
+				itr.remove();	
 			}
-			System.out.println(itr.next());		
-			
 		}
+		System.out.println(list);
 	}
 }
