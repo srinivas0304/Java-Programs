@@ -4,14 +4,26 @@ public class ReverseString
 {
 	public static void main(String[] args) 
 	{
-		String actual = "dev";
-		String rev = "";
-		
-		for(int i=0;i<actual.length();i++)
-		{
-			char ch= actual.charAt(i);
-			rev = ch+rev;
-		}
-		System.out.println(rev);
+		//whileLoop();
+		forLoop();
 	}
+	
+	public static void whileLoop() 
+	{
+		String str="google";
+		int len=str.length()-1;
+		while(len>=0) {
+			System.out.print(str.charAt(len));
+			len--;
+		}
+	}
+	
+	public static void forLoop() {
+		String str="dhruva";
+		int len=str.length()-1;
+		for(int i=len;i>=0;i--) {
+			System.out.print(str.charAt(i));
+		}
+	}
+	
 }

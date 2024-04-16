@@ -6,6 +6,6 @@ public class Demo
 {
 	public static void main(String[] args)
 	{
-		PublicAccess.demo();// public access modifiers, we can access across all the packages
+		PublicAccess.publicMethod();;// public access modifiers, we can access across all the packages
 	}
 }
