@@ -5,7 +5,8 @@ public class StringPrograms
 	public static void main(String[] args) {
 		//nameReverser();
 		//stringReverserForLoop();
-		stringReverserWhileLoop();
+		//stringReverserWhileLoop();
+		alphabetorNot();
 	}
 	
 	public static void nameReverser() {
@@ -30,6 +31,15 @@ public class StringPrograms
 			System.out.print(str.charAt(len));
 			len--;
 		}
+	}
+	static void alphabetorNot() {
+		String input="NaveenAutomationLabs";
+		char[] arr=input.toCharArray();
+		boolean ans=false;
+		for(int i=0;i<arr.length-1;i++) {
+			ans=Character.isAlphabetic(arr[i]);
+		}
+		System.out.println(ans);
 	}
 	
 	

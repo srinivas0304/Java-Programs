@@ -4,7 +4,7 @@ public class Pattern1
 {
 	public static void main(String[] args)
 	{
-		pattern3();
+		pattern2();
 	}
 	
 	public static void pattern1() 
